@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "606958043058",
+    "firebase_url": "https://remoteconfigdemo-unity.firebaseio.com",
+    "project_id": "remoteconfigdemo-unity",
+    "storage_bucket": "remoteconfigdemo-unity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606958043058:android:fca1c67a2c5f646c",
+        "android_client_info": {
+          "package_name": "com.ryokosuge.demo.remoteconfig.unity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCctxgvhfscBIdjd9M9TFTJZ5FasPN3SiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606958043058-0v7jpcl6vesobu1gcmpjp8d4582ns68b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "606958043058-gbg5nec36ummc5hq8u48f3ka5pcmj1te.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ryokosuge.demo.remoteconfig.unity"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
