@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_DemoRemoteConfig.1300058592.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_DemoRemoteConfig.1300058592.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -93,29 +93,7 @@
             <e p="PListProcessor.cs" t="Include" />
           </e>
           <e p="Platforms" t="Include">
-            <e p="Android" t="Include">
-              <e p="AdLoaderClient.cs" t="Include" />
-              <e p="BannerClient.cs" t="Include" />
-              <e p="CustomNativeTemplateClient.cs" t="Include" />
-              <e p="InterstitialClient.cs" t="Include" />
-              <e p="MobileAdsClient.cs" t="Include" />
-              <e p="RewardBasedVideoAdClient.cs" t="Include" />
-              <e p="RewardedAdClient.cs" t="Include" />
-              <e p="Utils.cs" t="Include" />
-            </e>
             <e p="GoogleMobileAdsClientFactory.cs" t="Include" />
-            <e p="iOS" t="Include">
-              <e p="AdLoaderClient.cs" t="Include" />
-              <e p="BannerClient.cs" t="Include" />
-              <e p="CustomNativeTemplateClient.cs" t="Include" />
-              <e p="Externs.cs" t="Include" />
-              <e p="InterstitialClient.cs" t="Include" />
-              <e p="MobileAdsClient.cs" t="Include" />
-              <e p="MonoPInvokeCallbackAttribute.cs" t="Include" />
-              <e p="RewardBasedVideoAdClient.cs" t="Include" />
-              <e p="RewardedAdClient.cs" t="Include" />
-              <e p="Utils.cs" t="Include" />
-            </e>
           </e>
         </e>
         <e p="PlayServicesResolver" t="Include">
@@ -139,12 +117,9 @@
         </e>
       </e>
       <e p="DemoRemoteConfig.sln" t="IncludeFlat" />
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp/bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>

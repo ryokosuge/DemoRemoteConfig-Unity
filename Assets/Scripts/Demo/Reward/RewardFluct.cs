@@ -16,8 +16,8 @@ namespace Demo.Reward
         private RewardFluct()
         {
 #if UNITY_ANDROID
-            var groupID = "";
-            var unitID = "";
+            var groupID = "1000090271";
+            var unitID = "1000135434";
 #elif UNITY_IOS
             var groupID = "1000085420";
             var unitID = "1000127865";

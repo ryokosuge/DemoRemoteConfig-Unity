@@ -20,11 +20,11 @@ namespace Demo.Reward
 #if UNITY_ANDROID
             var appID = "ca-app-pub-3940256099942544~3347511713";
 #elif UNITY_IOS
-            var appId = "ca-app-pub-3940256099942544~1458002511";
+            var appID = "ca-app-pub-3940256099942544~1458002511";
 #else
             var appID = "";
 #endif
-            MobileAds.Initialize(appId);
+            MobileAds.Initialize(appID);
             _rewardBasedVideoAd = RewardBasedVideoAd.Instance;
             _rewardBasedVideoAd.OnAdLoaded += HandleRewardBaseVideoAdLoaded;
             _rewardBasedVideoAd.OnAdRewarded += HandleRewardBaseVideoAdRewarded;
@@ -36,13 +36,13 @@ namespace Demo.Reward
 #if UNITY_ANDROID
             var adUnitID = "ca-app-pub-3940256099942544/5224354917";
 #elif UNITY_IOS
-            var adUnitId = "ca-app-pub-3940256099942544/1712485313";
+            var adUnitID = "ca-app-pub-3940256099942544/1712485313";
 #else
             var adUnitID = "";
 #endif
             _isRewarded = false;
             var request = new AdRequest.Builder().Build();
-            _rewardBasedVideoAd.LoadAd(request, adUnitId);
+            _rewardBasedVideoAd.LoadAd(request, adUnitID);
         }
 
         public void Show()
